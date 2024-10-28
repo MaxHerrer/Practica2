@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imagine Dragons</title>
+        <meta charset="UTF-8">
+        <!--Esta es una hoja de estilos interna-->
+        <style> 
+            body {
+                background-color: black;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+            #wrapper {
+                width: 80%;
+                margin: auto;
+            }
+            h1 {
+                text-align: center;
+            }
+            .section {
+                margin: 20px 0;
+                padding: 15px;
+                border: 2px solid #FFD700; /* Borde dorado */
+                border-radius: 10px; /* Bordes redondeados */
+            }
+            .section h2 {
+                color: #FFD700; /* Color dorado para destacar los títulos */
+            }
+            .section p, .section ul {
+                font-size: 16px;
+            }
+            /* Estilos para los botones */
+            .nav-button {
+                display: inline-block;
+                margin: 10px;
+                padding: 10px 20px;
+                background-color: #FFD700;
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+            .nav-button:hover {
+                background-color: #FFA500; /* Cambia a un naranja suave al pasar el cursor */
+            }
+            #nav {
+                text-align: center;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="artista">
+                <h1>Imagine Dragons</h1>
+                
+                <!-- Botones de navegación -->
+                <div id="nav">
+                    <a href="#datos" class="nav-button">Datos del Artista</a>
+                    <a href="#discografia" class="nav-button">Discografía</a>
+                    <a href="#giras" class="nav-button">Giras Mundiales</a>
+                </div>
+
+                <!-- Datos del artista -->
+                <div class="section" id="datos">
+                    <h2>Datos del Artista</h2>
+                    <p>Imagine Dragons es una banda estadounidense de pop-rock fundada en Las Vegas en 2008.
+
+                        Está formada por Dan Reynolds (cantante), Wayne Sermon (guitarra), Ben McKee (bajista) y Daniel Platzman (batería).
+                        
+                        El origen del grupo está en cuando Reynolds conoció y formó la banda con otros estudiantes de la Universidad mormona Universidad Brigham Young, en Utah.. Varios de los integrantes, eran graduados del Berklee College of Music, un conservatorio local.</p>
+                </div>
+
+                <!-- Discografía -->
+                <div class="section" id="discografia">
+                    <h2>Discografía</h2>
+                    <p>Álbumes de estudio destacados:</p>
+                    <ul>
+                        <li>Night Visions (2012)</li>
+                        <li>Smoke + Mirrors (2015)</li>
+                        <li>Evolve (2017)</li>
+                        <li>Origins (2018)</li>
+                        <li>Mercury – Act 1 (2021)</li>
+                    </ul>
+                </div>
+
+                <!-- Giras mundiales -->
+                <div class="section" id="giras">
+                    <h2>Giras Mundiales</h2>
+                    <p>Algunas de sus giras más destacadas incluyen:</p>
+                    <ul>
+                        <li>Night Visions Tour (2013)</li>
+                        <li>Smoke + Mirrors Tour (2015-2016)</li>
+                        <li>Evolve World Tour (2017-2019)</li>
+                        <li>Mercury World Tour (2022-2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
